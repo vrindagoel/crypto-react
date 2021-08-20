@@ -1,12 +1,33 @@
 import React , {Component} from 'react';
 import './css/skins/orange.css';
 import './css/bootstrap.min.css';
-import './css/font-awesome.min.css';
+// import './css/font-awesome.min.css';
 import './css/magnific-popup.css';
 import './css/main.css';
 import './css/select2.min.css' ;
 import './css/style.css';
-import './css/styleswitcher.css'
+// import './css/styleswitcher.css' ;
+
+// importing fonts
+// import './fonts/fontawesome-webfont3e6e.eot';
+// import './fonts/fontawesome-webfont3e6e.html';
+// import './fonts/fontawesome-webfont3e6e.svg';
+// import './fonts/fontawesome-webfont3e6e.ttf';
+// import './fonts/fontawesome-webfont3e6e.woff';
+// import './fonts/fontawesome-webfontd41d.eot';
+// import './fonts/glyphicons-halflings-regular.eot-.html' ;
+// import './fonts/glyphicons-halflings-regular.html' ;
+// import './fonts/glyphicons-halflings-regular.eot-.html' ;
+// import './fonts/glyphicons-halflings-regular.svg.html' ;
+// import './fonts/glyphicons-halflings-regular.woff2.html' ;
+// import './fonts/glyphicons-halflings-regular-2.html' ;
+// import './fonts/glyphicons-halflings-regular-3.html' ;
+
+
+//importing images
+import logos from './images/logo-dark.png';
+
+
 
 
 
@@ -55,7 +76,7 @@ class App extends Component{
                     <div className="site-nav-inner">
                         {/* <!-- Logo For ONLY Mobile display Starts --> */}
                         <a className="logo-mobile" href="index-2.html">
-							<img id="logo-mobile" className="img-responsive" src="images/logo-dark.png" alt="" />
+							<img id="logo-mobile" className="img-responsive" src={logos} alt="" />
 						</a>
                         {/* <!-- Logo For ONLY Mobile display Ends -->
                         <!-- Toggle Icon for Mobile Starts --> */}
